@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of a Data Analyst and Business Analyst specializing in Power BI, Excel, SQL, Dashboard, Data Visualization, Business Intelligence, AI Data Analysis, and Prompt Engineering.">
+    <meta name="keywords" content="Data Analyst, Business Analyst, Power BI, Excel, SQL, Dashboard, Data Visualization, Business Intelligence, AI Data Analysis, Prompt Engineering">
+    <title>Data Analyst & Business Analyst | Portfolio</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+    <header>
+        <div class="container nav-container">
+            <a href="#" class="logo">Adologx.</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+                    <i class="fas fa-moon theme-toggle" id="theme-btn" title="Toggle Dark Mode"></i>
+                </li>
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- ================= HERO SECTION ================= -->
+    <section id="home" class="hero">
+        <div class="container hero-content" data-aos="fade-up">
+            <h1>Turning Data into <br><span>Smart Business Decisions</span></h1>
+            <p>I help organizations leverage their data through advanced analytics, creating dynamic dashboards and actionable insights to drive growth and operational efficiency.</p>
+            <div class="hero-btns">
+                <a href="#contact" class="btn btn-primary">Hire Me</a>
+                <a href="#portfolio" class="btn btn-outline">View Portfolio</a>
+            </div>
+            <div class="quick-contact">
+                <span>Quick Connect:</span>
+                <a href="mailto:oginniadekola@gmail.com" title="Email Me"><i class="fas fa-envelope"></i></a>
+                <a href="https://wa.me/2349120338457" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://x.com/adologx" target="_blank" title="X Profile"><i class="fab fa-x-twitter"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= ABOUT SECTION ================= -->
+    <section id="about" class="about">
+        <div class="container about-grid">
+            <div class="about-text" data-aos="fade-right">
+                <h2 class="section-title" style="text-align: left;">About <span>Me</span></h2>
+                <h3>Data Analyst & Business Analyst</h3>
+                <p>I am a detail-oriented Data Analyst and Business Analyst with a passion for transforming complex datasets into clear, actionable business strategies. With expertise in Excel, SQL, Power BI, and Prompt Engineering, I bridge the gap between technical data operations and high-level business objectives.</p>
+                <p>My approach centers on <strong>business problem-solving</strong> and <strong>data storytelling</strong>, ensuring that every dashboard or report I create directly impacts decision-making and drives measurable results.</p>
+                
+                <div class="about-highlights">
+                    <div class="highlight-item">
+                        <i class="fas fa-bullseye highlight-icon"></i>
+                        <div class="highlight-content">
+                            <h4>Decision-Making Impact</h4>
+                            <p>Delivering strategic insights that directly lead to cost reduction, process optimization, and revenue growth.</p>
+                        </div>
+                    </div>
+                    <div class="highlight-item">
+                        <i class="fas fa-chart-line highlight-icon"></i>
+                        <div class="highlight-content">
+                            <h4>Data Storytelling</h4>
+                            <p>Translating raw numbers into compelling, easy-to-understand visual narratives for stakeholders.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-chart-container" data-aos="fade-left">
+                <!-- Chart.js Canvas -->
+                <canvas id="demoChart"></canvas>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= SERVICES SECTION ================= -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">My <span>Services</span></h2>
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <article class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon"><i class="fas fa-database"></i></div>
+                    <h4>Data Analysis</h4>
+                    <p>Comprehensive data processing, cleaning, and exploratory analysis to uncover hidden trends and patterns within your business data.</p>
+                </article>
+                <!-- Service 2 -->
+                <article class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon"><i class="fas fa-briefcase"></i></div>
+                    <h4>Business Analysis</h4>
+                    <p>Evaluating business processes, identifying operational needs, and delivering data-backed solutions to improve efficiency.</p>
+                </article>
+                <!-- Service 3 -->
+                <article class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-icon"><i class="fas fa-chart-pie"></i></div>
+                    <h4>Power BI Dashboards</h4>
+                    <p>Developing interactive, real-time Business Intelligence dashboards for executive monitoring and strategic planning.</p>
+                </article>
+                <!-- Service 4 -->
+                <article class="service-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-icon"><i class="fas fa-file-excel"></i></div>
+                    <h4>Excel Reporting & Automation</h4>
+                    <p>Advanced reporting, macro automation, and complex financial modeling to streamline manual spreadsheet tasks.</p>
+                </article>
+                <!-- Service 5 -->
+                <article class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon"><i class="fas fa-server"></i></div>
+                    <h4>SQL Data Analysis</h4>
+                    <p>Writing optimized queries for deep data extraction, transformation, and relational database management.</p>
+                </article>
+                <!-- Service 6 -->
+                <article class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon"><i class="fas fa-tachometer-alt"></i></div>
+                    <h4>KPI Tracking</h4>
+                    <p>Setting up robust metrics frameworks to accurately monitor performance across different business units.</p>
+                </article>
+                <!-- Service 7 -->
+                <article class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-icon"><i class="fas fa-robot"></i></div>
+                    <h4>AI-Powered Data Analysis</h4>
+                    <p>Leveraging cutting-edge AI tools to accelerate data processing, sentiment analysis, and predictive modeling.</p>
+                </article>
+                <!-- Service 8 -->
+                <article class="service-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-icon"><i class="fas fa-terminal"></i></div>
+                    <h4>Prompt Engineering</h4>
+                    <p>Crafting precise and effective AI prompts to automate analytical workflows and extract highly accurate insights.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= SKILLS SECTION ================= -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Professional <span>Skills</span></h2>
+            <div class="skills-wrapper">
+                <!-- Hard Skills -->
+                <div class="skill-category" data-aos="fade-right">
+                    <h3><i class="fas fa-laptop-code"></i> Technical Expertise</h3>
+                    <div class="skills-list">
+                        <span class="skill-tag">Excel</span>
+                        <span class="skill-tag">Power BI</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">Data Visualization</span>
+                        <span class="skill-tag">Dashboard Development</span>
+                        <span class="skill-tag">Business Intelligence</span>
+                        <span class="skill-tag">Reporting</span>
+                        <span class="skill-tag">Data Cleaning</span>
+                        <span class="skill-tag">Prompt Engineering</span>
+                        <span class="skill-tag">AI Data Analysis</span>
+                    </div>
+                </div>
+                <!-- Soft Skills -->
+                <div class="skill-category" data-aos="fade-left">
+                    <h3><i class="fas fa-users"></i> Soft Skills</h3>
+                    <div class="skills-list">
+                        <span class="skill-tag">Problem Solving</span>
+                        <span class="skill-tag">Critical Thinking</span>
+                        <span class="skill-tag">Communication</span>
+                        <span class="skill-tag">Attention to Detail</span>
+                        <span class="skill-tag">Time Management</span>
+                        <span class="skill-tag">Analytical Thinking</span>
+                        <span class="skill-tag">Adaptability</span>
+                        <span class="skill-tag">Business Understanding</span>
+                        <span class="skill-tag">Strategic Thinking</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= PORTFOLIO SECTION ================= -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Case <span>Studies</span></h2>
+            <div class="portfolio-grid">
+                <!-- Project 1 -->
+                <article class="portfolio-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="portfolio-img">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="portfolio-content">
+                        <h4>Sales Dashboard</h4>
+                        <div class="portfolio-tools">
+                            <span class="tool-tag">Power BI</span>
+                            <span class="tool-tag">Excel</span>
+                        </div>
+                        <p>Developed an interactive sales tracking dashboard to monitor regional performance, sales rep metrics, and product viability in real-time.</p>
+                        <div class="portfolio-outcome">
+                            <strong>Outcome:</strong> Improved sales tracking visibility and successfully identified 15% underperforming regions for strategic intervention.
+                        </div>
+                    </div>
+                </article>
+                
+                <!-- Project 2 -->
+                <article class="portfolio-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="portfolio-img">
+                        <i class="fas fa-users-slash"></i>
+                    </div>
+                    <div class="portfolio-content">
+                        <h4>Customer Churn Analysis</h4>
+                        <div class="portfolio-tools">
+                            <span class="tool-tag">SQL</span>
+                            <span class="tool-tag">Excel</span>
+                        </div>
+                        <p>Analyzed historical customer demographic and behavioral data to identify key leading indicators preceding subscription cancellations.</p>
+                        <div class="portfolio-outcome">
+                            <strong>Outcome:</strong> Identified critical retention opportunities that empowered the marketing team to reduce overall churn by 12%.
+                        </div>
+                    </div>
+                </article>
+                
+                <!-- Project 3 -->
+                <article class="portfolio-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="portfolio-img">
+                        <i class="fas fa-file-invoice-dollar"></i>
+                    </div>
+                    <div class="portfolio-content">
+                        <h4>Financial Reporting Automation</h4>
+                        <div class="portfolio-tools">
+                            <span class="tool-tag">Excel</span>
+                        </div>
+                        <p>Automated tedious monthly financial reporting workflows using advanced Excel functions, Power Query, and robust VBA macros.</p>
+                        <div class="portfolio-outcome">
+                            <strong>Outcome:</strong> Reduced manual reporting processing time from 3 full days to under 4 hours, eliminating human entry errors.
+                        </div>
+                    </div>
+                </article>
+                
+                <!-- Project 4 -->
+                <article class="portfolio-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="portfolio-img">
+                        <i class="fas fa-bullhorn"></i>
+                    </div>
+                    <div class="portfolio-content">
+                        <h4>Marketing Analysis Dashboard</h4>
+                        <div class="portfolio-tools">
+                            <span class="tool-tag">Excel</span>
+                            <span class="tool-tag">Power BI</span>
+                        </div>
+                        <p>Consolidated multi-channel marketing data sources to accurately measure Return on Investment (ROI) and individual campaign effectiveness.</p>
+                        <div class="portfolio-outcome">
+                            <strong>Outcome:</strong> Improved overall campaign performance by enabling data-driven budget reallocation to high-performing channels.
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= BLOG SECTION ================= -->
+    <section id="blog" class="blog">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Latest <span>Insights</span></h2>
+            <div class="blog-grid">
+                <!-- Blog 1 -->
+                <article class="blog-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="blog-icon"><i class="fas fa-lightbulb"></i></div>
+                    <h4>How Businesses Use Data to Make Better Decisions</h4>
+                    <p>Explore the methodologies modern companies use to pivot from intuition-based to data-driven decision-making cultures, ensuring sustainable growth.</p>
+                    <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                </article>
+                <!-- Blog 2 -->
+                <article class="blog-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="blog-icon"><i class="fas fa-balance-scale"></i></div>
+                    <h4>Power BI vs Excel: Which Tool is Better?</h4>
+                    <p>A comprehensive breakdown of when to leverage Excel for ad-hoc analysis versus deploying Power BI for scalable, enterprise-wide reporting.</p>
+                    <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                </article>
+                <!-- Blog 3 -->
+                <article class="blog-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="blog-icon"><i class="fas fa-brain"></i></div>
+                    <h4>How AI is Transforming Data Analysis</h4>
+                    <p>From predictive modeling to natural language query processing, see how AI and Prompt Engineering are fundamentally changing the analyst role.</p>
+                    <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= TESTIMONIALS SECTION ================= -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Client <span>Testimonials</span></h2>
+            <div class="testimonial-grid">
+                <article class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+                    <i class="fas fa-quote-right quote-icon"></i>
+                    <p class="testimonial-text">"The dashboard provided completely changed how we view our monthly KPIs. The insights were clear, accurate, and immediately actionable. Highly recommended for any business looking to scale."</p>
+                    <div class="testimonial-author">
+                        <div class="author-img"><i class="fas fa-user"></i></div>
+                        <div class="author-info">
+                            <h5>Ademola Rebecca</h5>
+                            <span>Operations Director</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+                    <i class="fas fa-quote-right quote-icon"></i>
+                    <p class="testimonial-text">"Outstanding work automating our financial reporting. What used to take our team days is now done with a click of a button. The attention to detail and business understanding is top-notch."</p>
+                    <div class="testimonial-author">
+                        <div class="author-img"><i class="fas fa-user-tie"></i></div>
+                        <div class="author-info">
+                            <h5>Jimoh Taofeek</h5>
+                            <span>Chief Financial Officer</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= CONTACT SECTION ================= -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Let's <span>Connect</span></h2>
+            <div class="contact-wrapper">
+                <div class="contact-info" data-aos="fade-right">
+                    <h3>Ready to transform your data?</h3>
+                    <p>Let’s turn your data into actionable insights. Reach out to me via email or social media, or fill out the form to discuss your business needs.</p>
+                    
+                    <div class="contact-item">
+                        <a href="mailto:oginniadekola@gmail.com" class="contact-icon"><i class="fas fa-envelope"></i></a>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <a href="mailto:oginniadekola@gmail.com">oginniadekola@gmail.com</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <a href="https://wa.me/2349120338457" target="_blank" class="contact-icon"><i class="fab fa-whatsapp"></i></a>
+                        <div class="contact-details">
+                            <h4>WhatsApp</h4>
+                            <a href="https://wa.me/2349120338457" target="_blank">+234 912 033 8457</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <a href="https://x.com/adologx" target="_blank" class="contact-icon"><i class="fab fa-x-twitter"></i></a>
+                        <div class="contact-details">
+                            <h4>X (Twitter)</h4>
+                            <a href="https://x.com/adologx" target="_blank">@adologx</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form" data-aos="fade-left">
+                    <form onsubmit="event.preventDefault(); alert('Thank you for reaching out! Your message has been simulated as sent.');">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <h3>Adologx.</h3>
+                    <p>Professional Data & Business Analyst dedicated to helping organizations make smarter, data-driven decisions through advanced analytics and visualization.</p>
+                    <div class="footer-socials">
+                        <a href="mailto:oginniadekola@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+                        <a href="https://wa.me/2349120338457" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://x.com/adologx" target="_blank" title="X Profile"><i class="fab fa-x-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Data Analysis</a></li>
+                        <li><a href="#services">Power BI Dashboards</a></li>
+                        <li><a href="#services">Excel Automation</a></li>
+                        <li><a href="#services">SQL Queries</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Adologx. All rights reserved. Let's turn your data into actionable insights.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to top button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- ================= SCRIPTS ================= -->
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
